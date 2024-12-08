@@ -80,7 +80,7 @@ func main() {
 
 func getOpenAIResponse(question string) (string, error) {
 	apiURL := "https://api.openai.com/v1/chat/completions"
-	apiKey := "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"
+	apiKey := "4jEo5SIcE9Zw0H0geQIo6BCDwXP_XxD10yceQ7FvNRYA7T1PTeT3BlbkFJ50SoEpUSVYbdcw39z5nqOz5DX95VkpHlembDTRV73OxupGTMXoZYGSbLhGNYbdHULNRPdJSoAA"
 
 	data := map[string]interface{}{
 		"model": "gpt-3.5-turbo",
